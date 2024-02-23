@@ -59,6 +59,10 @@ namespace TheOtherRoles.Modules {
                         }
                         handled = true;
                     }
+                    else if (text.ToLower().Equals("/owner"))
+                    {
+                        __instance.AddChat(CachedPlayer.LocalPlayer.PlayerControl, AmongUsClient.Instance.GetHost().PlayerName + " is the host of this lobby.");
+                    }
                 }
                 
                 if (AmongUsClient.Instance.NetworkMode == NetworkModes.FreePlay) {
