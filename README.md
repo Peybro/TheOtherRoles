@@ -1838,7 +1838,7 @@ The souls will always prefer to answer with the role specific information first!
 
 ## Trapper
 ### **Team: Crewmates**
-The Trapper is a crewmate which can set up traps to trap player and gain information from them.\
+The Trapper is a crewmate which can set up traps to trap player and gain information from them for the moment thy are trapped.\
 The traps will stuck player for x-seconds (depends on the setting) and reveal information in chat
 about their "Role", if they are a "Good/Evil Role" or their "Name".\
 The trap is not visible until a configurable amount of player were trapped.\
